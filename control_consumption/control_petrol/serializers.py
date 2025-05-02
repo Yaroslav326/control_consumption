@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
-from control_consumption.control_petrol import models
+from . import models
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
